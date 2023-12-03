@@ -1,0 +1,39 @@
+/* div#goga{
+    border: 10px solid mediumvioletred;
+}
+
+section#goga{
+    border: 10px solid lawngreen;
+}
+div.goga{
+    border: 10px  solid palevioletred;
+}
+section.goga{
+    border: 10px solid orange;
+} */
+header#goga.cls {
+    border: 3px solid rgb(23, 82, 200);
+    padding: 10px;
+    /* margin-top: 5px; */
+    color: beige solid;
+    background-color: rgb(224, 234, 239);
+    /* margin-top: 20px; */
+
+    padding-left: 600px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-size: 20px;
+}
+
+.user {
+    height: 30px;
+    width: 500px;
+}
+.wave {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 110%;
+    width: 110%;
+    z-index: -1;
+}

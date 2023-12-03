@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Inputs</title>
+    <link rel="stylesheet" href="patient_Login.css">
+    
+    <style>
+        input {
+            display: block;
+        }
+
+        input[type=checkbox],
+        input[type=radio] {
+            
+            display: inline;
+        }
+
+        :focus {
+            outline: 2px solid blueviolet;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <img class="wave" src="hero.jpg">
+    <header id="goga" class="cls" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: xx-large;">Patient Data</header>
+    <form action="dentist.html" novalidate>
+
+         
+        <br>
+        <select name="" class="user" required style="background-color:rgb(243, 243, 245)  ; font-family: Georgia, 'Times New Roman', Times, serif; font-size: large;">
+            <option value="">Gender</option>
+            <option value="">Female</option>
+            <option value="">Male</option>
+        </select>
+        <br>
+        <br>
+        <select name="" id="" class="user"required style="background-color:rgb(240, 243, 249)  ; font-family: Georgia, 'Times New Roman', Times, serif; font-size: large;">
+            
+            <option value="">Diagnosis</option>
+            <option value="">Endodontics</option>
+            <option value="">Orthodontics</option>
+            <option value="">Tooth extraction</option>
+            <option value="">Bleaching</option>
+        </select>
+        <br>
+        <br>
+
+
+        <label for="fname"
+            style="font-size: x-large; border: 10px; color:blue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">First
+            name: </label> <br>
+
+        <input type="text" placeholder="enter your name" minlength="4" maxlength="10" size="25" class="user">
+
+       
+
+        <label for="fname"
+            style="font-size: x-large; border: 10px; color:blue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Last
+            name: </label> <br>
+
+        <input type="text" placeholder="enter your name" minlength="4" maxlength="10" size="25" class="user">
+
+        <br>
+
+        <label for="fname"
+            style="font-size: x-large; border: 10px; color:blue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Password
+            : </label> <br>
+        <input type="password" placeholder="password" class="user">
+        <br>
+
+        <label for="fname"
+            style="font-size: x-large; border: 10px; color:blue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Email:
+        </label> <br>
+        <input type="email" placeholder="email@ali.com" autofocus name="email" autocomplete="on" class="user">
+        <br>
+        <label for="fname"
+            style="font-size: x-large; border: 10px; color:blue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Phone:
+        </label> <br>
+        <input type="tel" placeholder="123_456_7891" pattern="\d{3}\d{3}\d{4}" class="user">
+        <br>
+
+        <label for="fname"
+            style="font-size: x-large; border: 10px; color:blue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Degree
+            of danger:
+        </label> <br>
+        <input type="color" class="user">
+        <input type="range" min="1" max="120" step="100" value="9" class="user">
+        <input type="number" min="0" max="30" step="5" class="user">
+        <br>
+
+        <label for="fname"
+            style="font-size: x-large; border: 10px; color:blue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Analysis
+            reports:
+        </label> <br>
+        <input type="file" multiple class="user">
+        <br>
+
+
+
+        <label for="fname"
+            style="font-size: x-large; border: 10px; color:blue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">The
+            date:
+        </label> <br>
+        <input type="datetime-local" class="user">
+<br>
+
+       <input type="reset" value="clear" class="user" style=" font-size: large; background-color: rgb(127, 180, 255);">
+    <br>
+ <button class="user" style=" font-size: large; background-color: rgb(127, 180, 255);">Sign Up</button>
+
+        <br>
+    
+
+    </form>
+
+
+</body>
+
+</html>
